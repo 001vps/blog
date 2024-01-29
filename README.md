@@ -1,5 +1,9 @@
 sudo add-apt-repository ppa:mc3man/trusty-media
+
+
 sudo apt update
+
+
 apt install ffmpeg
 
 
