@@ -37,4 +37,4 @@ ffmpeg -f concat -i mylist.txt -c copy "${filename01}"
 
 find . -type f -name "*.flv" -name "*p00*" -exec rm {} \;
 find . -type f -name "*.txt" -exec rm {} \;
-#python -m http.server
+python -m http.server
